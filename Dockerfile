@@ -1,3 +1,3 @@
 FROM ethereum/client-go
 
-CMD ["geth", "--rpc", "--rpcaddr", "0.0.0.0", "--rpccorsdomain", "*"]
+CMD ["geth", "--fast", "--rpc", "--rpcaddr", "0.0.0.0", "--rpccorsdomain", "*"]
