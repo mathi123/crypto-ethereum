@@ -12,4 +12,4 @@ geth_cmd="geth --fast \
   --rpccorsdomain *"
 
 echo $geth_cmd
-exec $geth_cmd 
+# exec $geth_cmd 
