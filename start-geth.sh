@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 echo "Geth Starting..."
 
 RPC_ADDR="$(hostname -i)"
