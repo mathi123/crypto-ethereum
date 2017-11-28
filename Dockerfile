@@ -1,4 +1,4 @@
-FROM ethereum/client-go
+FROM ethereum/client-go:stable
 
 COPY start-geth.sh ./start-geth.sh
 
